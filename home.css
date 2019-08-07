@@ -1,0 +1,38 @@
+
+p {
+    color: rgb(250, 241, 241);
+   }
+   
+nav {
+    height: 50px;
+    width: 95vw;
+    background-color: orange;
+    overflow: none;
+    margin: 200px auto;
+    
+    
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    line-height: 50px;
+    padding: 0;
+  }
+  
+  nav ul li {
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  nav ul li:hover {
+    background-color: darkorange;
+    cursor: pointer;
+  }
+  
+  
+  

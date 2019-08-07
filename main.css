@@ -1,1 +1,194 @@
 body {background-color: rgb(247, 156, 123);}
+
+
+body{
+    margin:0;
+    padding:0;
+    } 
+  
+  html {
+    background:#E4FFD2;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-rendering:optimizeLegibility;
+    font-size:100px;
+  }
+  
+  .wel {
+    opacity:.7;
+  }
+  
+  .head {
+    background:#FFD4F5;
+    max-width: 100%;
+    min-height: 100px;
+    position:relative;
+    margin: 0 auto;
+  }
+  
+  .container {
+      margin: 15% auto;
+      position:relative;
+    width:500px;
+    height:200px;
+      }
+  
+  button {
+    outline:none;
+    background:#FFD4F5;
+    border: none;
+    margin: 0 auto;
+    font-size: 40%;
+    position: absolute;
+    min-width: 170px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .text-sample {
+    width: 600px;
+    height: 400px;
+    margin: -20%;
+    color:grey;
+    position:absolute;
+    font-size:10%;
+    }
+  
+  .lines {
+    background-color: grey;
+    line-height:40px;
+  }
+  
+  figure {
+    width:100px;
+    height:100px;	
+    z-index:2;
+    background:#B06FB2;
+    position:relative;  
+    border-radius:100px;
+    float:right;
+    color:white;
+    font-size:15%;
+     }
+  figure a {
+    line-height:95px;
+    padding:12% 10%;
+  }
+  
+  
+  .contact {
+      text-align:center;
+      background: #B06FB2;
+      width: 80px;
+      height: 0px;
+      left: 90%;
+      top: 80%;
+      line-height:2em;
+      font-size:20%;
+      color:white;
+      position:fixed;
+      outline:none;
+      padding-top: .5em;
+      z-index:4;
+      border-radius: 2em;
+      }
+      
+  .contact:after{
+      content:"";
+      width:0px;
+      height:0px;
+      border-left: 3em solid transparent;
+      border-right: 3em solid transparent;
+      border-top: 5em solid #B06FB2;
+      position:absolute;
+      top:0;
+      z-index: -1;
+      right:-23%;
+      }
+      
+  .contact a {
+      text-decoration:none;
+      color:white;
+      opacity: .9;
+      font-size:.6em;
+      }
+  
+  .projectCard {
+    width: 200px;
+    height: 150px;
+    background:#B06FB2;
+    position:absolute;
+    color:white;
+    font-size:25%;
+    margin-top: 5%;
+    float: right;
+    margin-left: 5%;
+    display:inline;
+  }
+  
+  
+  
+  .projectCard:after {
+      content: "";
+      width: 0px;
+      height: 0px;
+      border-left: 200px solid transparent;
+      border-top: 150px solid gray;
+      position: absolute;
+      top:100%;
+    }
+      
+  @media only screen and (max-width:1200px){
+      
+      }
+  
+  @media only screen and (max-width:1023px){
+      
+      }
+  
+  
+  @media only screen and (max-width:767px){
+      body{
+          font-size:80%;
+      overflow:visible;
+          }
+          
+      .container {
+          width:20%;
+          height:20%;
+          margin:25% 4%;
+          }
+    
+    .wel {
+      font-size:80%;
+    }
+    
+          
+      .contact{
+          left:75%;
+          }
+      .contact:after{
+          right:-10%;
+          }
+      .text-sample {
+    width:450%;
+    margin: 0 5%;
+    color:grey;
+    position:absolute;
+    }
+   
+    figure a {
+      padding:17%;
+    }
+    
+    .projectCard{
+      
+    }
+   
+    .projectCard:after{
+      
+    }
+      
+      }
+  
+  
+  
