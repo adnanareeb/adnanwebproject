@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Allan:400,700);
 
-@import url(https://fonts.googleapis.com/css?family=Tangerine);
+@import url(https://fonts.googleapis.com/css?family=Blinker&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
@@ -52,7 +52,7 @@ body {
 
 .about-header p {
   font-size: 2.5em;
-  font-family: "Tangerine", cursive;
+  font-family: "Blinker", cursive;
 }
 
 .links {
@@ -101,16 +101,16 @@ body {
 .entry p {
   color: #444;
   font-size: 2em;
-  font-family: "Tangerine", cursive;
+  font-family: "Blinker", cursive;
   margin-left: 2em;
 }
 
 .entry a {
-  font-family: "Tangerine", cursive;
+  font-family: "Blinker", cursive;
   color: #000;
 }
 p {
-    color: rgb(247, 201, 193);
+    color: rgb(255, 228, 223);
    }
    
 nav {
